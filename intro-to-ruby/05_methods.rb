@@ -24,3 +24,11 @@ puts "Sonia".downcase
 # SONIA
 # sonia
 
+puts name = "Sonia".downcase
+puts name.reverse
+puts name.upcase
+puts name = "Sonia".downcase.reverse.upcase # you can chain methods
+# sonia
+# ainos
+# SONIA
+# AINOS
